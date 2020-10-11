@@ -1,0 +1,66 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 11px;
+    }
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .feature-tittle h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .contact-info h6 {
+        font-size: 12px;
+    }
+    .contact-info h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .copy-right-area img {
+        width: 120px;
+        height: 20px;
+    }
+    .copy-right-area p {
+        font-size: 10px;
+    }
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .pricing-area .single-card:hover {
+        transform: scale(0.9);
+    }
+    .fotter-section {
+        padding-top: 600px;
+    }
+
+    .single-fotter .insatgram-imge.justify-content-start.d-flex img {
+        height: 40px;
+        width: 30px;
+    }
+    .copy-right-area p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-fotter .insatgram-imge.justify-content-start.d-flex img {
+        height: 40px;
+        width: 40px;
+    }
+
+}

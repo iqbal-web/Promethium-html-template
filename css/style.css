@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap');
  body {
     font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
@@ -35,6 +36,8 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
     font-size: 14px;
     padding: 38px 0;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 /* button */
@@ -44,9 +47,11 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
     color: #fff;
     border-radius: 18px;
     padding: 6px 24px;
-    font-size: 14px;
+    font-size: 13px;
     transition: .3s;
     margin: 0;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
 }
 .button a.btn:hover{
     background-color: #fff;
@@ -73,6 +78,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
     font-size: 40px;
     color: #fff;
     line-height: 50px;
+    font-weight: 500;
 }
 .feature-tittle p {
     font-size: 16px;
@@ -107,7 +113,6 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 }
 .single-lead {
     margin-bottom: 30px;
-    text-align: center;
 }
 .single-lead img {
     margin-bottom: 30px;
@@ -115,10 +120,12 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 .single-lead h4 {
     font-size: 18px;
     color: #202020;
+    margin-bottom: 15px;
 }
 .single-lead p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 26px;
+    color: #5f5f5f;
 }
 .single-lead .poper a.btn {
     padding: 8px 20px;
@@ -162,8 +169,8 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 
 /* slider-area */
 .slider-wrapper img {
-    min-height: 570px;
-    width: 810px !important;
+    min-height: 404px !important;
+    width: 620px !important;
 }
 .owl-dot {
     height: 5px;
@@ -183,7 +190,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
     width: 6px;
 }
 .slider-info.d-flex {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .slider-content {
     padding-left: 30px;
@@ -194,7 +201,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 }
 .slider-content p {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 26px;
     color: #5f5f5f;
     padding-top: 10px;
     font-weight: 500;
@@ -252,16 +259,21 @@ box-shadow: 0 0 9px 3px rgb(142 137 114 / 22%);
 margin-top: 30px;
 margin-right: 20px;
 }
+.testimonal-content h6 {
+    font-size: 14px;
+    font-weight: 500;
+}
 .testimonal-content p {
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 20px;
+    color: #5e5e5e;
 }
 .athour {
-    margin-top: -100px;
+    margin-top: -60px;
 }
 .athour img.img-fluid {
-    height: 150px;
-    width: 150px;
+    height: 90px;
+    width: 90px;
     align-items: center;
     margin: 0 auto;
 }
@@ -277,7 +289,7 @@ margin-right: 20px;
     margin-bottom: 50px;
 }
 .single-service img {
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 .single-service h5 {
     color: #fff;
@@ -345,8 +357,8 @@ margin-right: 20px;
     line-height: 50px;
 }
 .single-info img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 .single-info h4 {
@@ -552,6 +564,9 @@ hr.devid {
     padding-top: 50px;
     padding-bottom: 30px;
 }
+form {
+    padding: 0 50px;
+}
 .text-box {
     margin-bottom: 26px;
 }
@@ -582,6 +597,7 @@ input.input {
     box-shadow: none;
     border: 1px solid #666;
     color: #666;
+    font-family: 'Montserrat', sans-serif;
 }
 .contact-box .button a.btn:hover {
     background: #0bd7fc;
@@ -623,10 +639,18 @@ input.input {
     margin-bottom: 30PX;
     text-transform: uppercase;
 }
-.single-fotter p {
+.single-fotter a {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 35px;
     color: #737373;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.single-fotter a.ad {
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
 }
 .single-fotter i {
     color: #0bd7fc;

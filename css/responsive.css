@@ -9,6 +9,13 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 11px;
     }
+    .single-fotter a.ad {
+        font-size: 14px;
+    }
+    .single-info img {
+        height: 200px;
+        width: 200px;
+    }
 
 }
 
@@ -52,6 +59,18 @@
     .copy-right-area p {
         font-size: 10px;
         text-align: center;
+    }
+    .single-lead {
+        text-align: center;
+    }
+    .single-fotter a.ad {
+        font-size: 14px;
+        line-height: 40px;
+        font-family: 'Work Sans', sans-serif;
+        text-decoration: none;
+    }
+    .single-fotter a.ad {
+        font-size: 14px;
     }
 
 }
